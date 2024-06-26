@@ -38,7 +38,7 @@ function Auth() {
       </div>
       {/* Image Portion */}
       <div className='img-portion'>
-        <img src={authImg} alt="login page side picture" className='image' />
+        <img src={authImg} alt="login page side" className='image' />
       </div>
     </div>
   )
