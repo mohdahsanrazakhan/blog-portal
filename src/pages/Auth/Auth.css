@@ -1,0 +1,98 @@
+.auth-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.form-portion {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  margin: auto 150px;
+  min-height: 100vh;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-weight: 600;
+}
+
+.input-area {
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 7px;
+  margin: 0 0 20px 0;
+}
+
+.input-checkbox {
+  margin: 0 0 20px 0;
+}
+
+.img-portion {
+  min-height: 100vh;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px 0 0 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit-btn {
+  background-color: #3a5b22;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 7px;
+  padding: 7px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  border: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.form-condition {
+  margin: 15px auto 0;
+
+}
+
+.link-blue {
+  color: #0075ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form-portion {
+    margin: auto 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-portion {
+    margin: auto 70px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .form-portion {
+    width: 100%;
+  }
+  .img-portion {
+    display: none;
+  }
+}
